@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mago Win Casino</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #a678f2; /* Violeta claro llamativo */
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .bonus {
+      margin: 30px 0;
+    }
+
+    .bonus img {
+      width: 300px;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      padding: 16px 32px;
+      font-size: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'TU_ID_DEL_PIXEL'); 
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=TU_ID_DEL_PIXEL&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+</head>
+<body>
+
+  <header>
+    <div class="logo">🎩 Mago Win Casino 🎰</div>
+  </header>
+
+  <section class="bonus">
+    <p><strong>¡Bono de Bienvenida del 35%!</strong></p>
+    <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="Bono 35%">
+  </section>
+
+  <a href="https://wa.me/542236731493"
+     class="whatsapp-btn"
+     onclick="fbq('track', 'Contact');"
+     target="_blank">
+    💬 ¡Contáctanos por WhatsApp!
+  </a>
+
+</body>
+</html>
